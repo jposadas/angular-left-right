@@ -12,17 +12,17 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
 		.state('page1', {
 			url: "/page1",
 			templateUrl: "page1.html",
-			controller: "page1Ctrl"
+			controller: "pageCtrl"
 		})
 		.state('page2', {
 			url: "/page2",
 			templateUrl: "page2.html",
-			controller: "page2Ctrl"
+			controller: "pageCtrl"
 		})
 		.state('page3', {
 			url: "/page3",
 			templateUrl: "page3.html",
-			controller: "page3Ctrl"
+			controller: "pageCtrl"
 		});
 
 }]);

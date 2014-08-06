@@ -17,28 +17,8 @@ appControllers.controller('navigationCtrl', ['$scope', '$rootScope', function($s
 
 }]);
 
-appControllers.controller('page1Ctrl', ['$scope', function($scope) {
+appControllers.controller('pageCtrl', ['$scope', function($scope) {
 
-	$scope.$on('change-left', function(event, args) {
-		$scope.colorLeft = 'text-' + args.color;
-	});
-
-	$scope.$on('change-right', function(event, args) {
-		$scope.colorRight = 'text-' + args.color;
-	});
-}]);
-
-appControllers.controller('page2Ctrl', ['$scope', function($scope) {
-	$scope.$on('change-left', function(event, args) {
-		$scope.colorLeft = 'text-' + args.color;
-	});
-
-	$scope.$on('change-right', function(event, args) {
-		$scope.colorRight = 'text-' + args.color;
-	});
-}]);
-
-appControllers.controller('page3Ctrl', ['$scope', function($scope) {
 	$scope.$on('change-left', function(event, args) {
 		$scope.colorLeft = 'text-' + args.color;
 	});
