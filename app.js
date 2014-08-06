@@ -1,8 +1,5 @@
 var app = angular.module('outfittery-test', ['appControllers', 'ui.router']);
 
-app.run(['$http', '$templateCache', function($templateCache, $http) {
-
-}]);
 
 app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
